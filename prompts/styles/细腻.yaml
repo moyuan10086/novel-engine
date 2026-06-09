@@ -1,0 +1,17 @@
+# 细腻风格 — 沉浸感，情感深度
+
+pacing:
+  target_words_per_scene: 1500
+  max_consecutive_description_sentences: 5
+  dialogue_to_narration_ratio: "35:65"
+
+style_notes:
+  - 允许长句，用逗号构建节奏感
+  - 感官描写丰富（视觉、听觉、触觉、嗅觉）
+  - 情感变化有层次，不跳跃
+  - 环境映射心理状态
+
+system_addon: |
+  风格要求：细腻沉浸。注重感官描写和情感层次，
+  允许较长的环境铺垫来构建氛围。角色的内心世界需要
+  充分展开，用外部细节映射内在状态。

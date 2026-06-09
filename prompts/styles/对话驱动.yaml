@@ -1,0 +1,18 @@
+# 对话驱动风格 — 以对话为主要叙事手段
+
+pacing:
+  target_words_per_scene: 1200
+  max_consecutive_description_sentences: 1
+  dialogue_to_narration_ratio: "75:25"
+
+style_notes:
+  - 对话承载信息传递、性格表达、冲突推进
+  - 动作描写穿插在对话间（说话时的小动作）
+  - 几乎不用独立的心理描写段落
+  - 不同角色的语言风格有明显差异
+
+system_addon: |
+  风格要求：对话驱动。本章以对话为主要叙事手段，
+  对话占比应达到70%以上。通过对话传递信息、展现性格、
+  推进冲突。每个角色的说话方式需有辨识度。
+  叙述性文字仅用于必要的动作和场景转换。

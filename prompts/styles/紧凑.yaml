@@ -1,0 +1,16 @@
+# 紧凑风格 — 快节奏，高信息密度
+
+pacing:
+  target_words_per_scene: 800
+  max_consecutive_description_sentences: 2
+  dialogue_to_narration_ratio: "60:40"
+
+style_notes:
+  - 短句为主，长句不超过30字
+  - 一个场景一个核心事件，不绕弯
+  - 转场用空行，不用过渡段
+  - 内心独白限制在1-2句
+
+system_addon: |
+  风格要求：紧凑节奏。短句优先，场景切换快速，
+  每段不超过4句。信息密度高，不做无意义的环境铺陈。

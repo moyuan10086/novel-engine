@@ -1,0 +1,36 @@
+.env
+.env.*
+!.env.example
+
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+.venv/
+venv/
+*.egg-info/
+
+# Local author projects and generated manuscripts.
+# Keep real novel drafts, chapter files, state, vectors, and merged books private.
+projects/**
+!projects/
+!projects/.gitkeep
+!projects/_demo/
+!projects/_demo/**
+
+book.md
+book.txt
+*.epub
+*.mobi
+
+# Prompt previews often contain spoilers, private worldbuilding, and full context.
+_prompt_preview*.md
+context_report_ch*.json
+
+# Optional local databases / indexes
+vector_db/
+chroma/
+*.sqlite3
