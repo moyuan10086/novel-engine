@@ -30,6 +30,9 @@ book.txt
 _prompt_preview*.md
 context_report_ch*.json
 
+# Personal notes / local design drafts
+SillyTavern记忆提示词后端改进方案.md
+
 # Optional local databases / indexes
 vector_db/
 chroma/
