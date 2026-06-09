@@ -21,6 +21,9 @@ projects/**
 !projects/_demo/
 !projects/_demo/**
 
+# Local drafts, examples, and launch material.
+docs/
+
 book.md
 book.txt
 *.epub
